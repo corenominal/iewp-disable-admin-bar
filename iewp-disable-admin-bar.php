@@ -1,4 +1,5 @@
 <?php
+if ( ! defined( 'WPINC' ) ) { die('Direct access prohibited!'); }
 /**
  * Plugin Name: IEWP Disable Admin Bar
  * Plugin URI: https://github.com/corenominal/iewp-disable-admin-bar
@@ -8,4 +9,7 @@
  * Author URI: https://corenominal.org
  */
 
+/**
+ * Disable the admin bar for all users
+ */
 show_admin_bar( false );
